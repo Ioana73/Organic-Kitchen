@@ -1,0 +1,270 @@
+body {
+    font-family: 'Lora', serif;
+    background-color:#F9F6F0;  
+}
+.main-navbar {
+    display: flex;
+    align-items: right;
+    width: 100%;
+    justify-content: space-between;
+    background: #6F5B3E;
+    padding: 0;
+}
+     
+.logo {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    margin:0;
+    padding: 0;
+}
+     
+.main-navbar ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;   
+}
+     
+.main-navbar li {
+    margin: 10px 10px;
+}    
+.main-navbar li a {
+    display: block;
+    padding: 10px 10px; 
+    white-space: nowrap; 
+}
+
+ /*--bootstrap*/
+
+.section-padding {
+    padding: 100px 0;
+}
+.carousel-caption {
+    bottom: 40px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: #F9F6F0;
+}
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color:#F9F6F0;
+}
+.carousel-inner::before {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background: rgba(0, 0, 0, 0.7)
+    z-index 1;
+}
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, 
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+.narbar-light .navbar-nav .navbar-link {
+    color:#000;
+}
+.footer{  
+    background-color:#6F5B3E;
+    padding: 10px;
+    margin-top: 20px;
+}  
+.footer-h4{
+  color: #F9F6F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+.footer-p{
+  color: #F9F6F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  color: #F9F6F0;
+  text-decoration: none;
+}
+.prima-sectiune {
+    background: #C4AE78;
+}
+.margini-navbar {
+    margin: 10px;
+    padding: 0;
+}
+.carousel-item .ratio img {
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.carousel-caption .title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.row.fundal-sectiune-doi {
+    background-color: #171515;
+    color:#F9F6F0;
+    height: 300px;
+    align-items: center;
+}
+.container.imagine-container-100 img {
+    width:100%;
+    height: 450px;
+    object-fit: cover;
+    
+    
+}
+.container.imagine-container-100 {
+    padding: 0;
+}
+.carusel-item {
+    height: 600px;
+}
+.aliniere-centru {
+    text-align: center;
+    padding: 5px;
+}
+.culoare-footer {
+    background-color: #6F5B3E;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-h4{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer-p{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+.lista {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: space-around;
+}
+.copyright {
+    color:#F9F6F0;
+    text-align: center;
+}
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.button:hover {
+    background-color: #555;
+}
+.despre-noi {
+    text-align: center;
+    color: black;
+}
+.carduri-despre-noi {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:8px;
+}
+.coloane-despre-noi {
+    width:33.33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.imagini {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.comfort {
+    display: flex;
+    justify-content: space-around;
+}
+.comfort p {
+    margin-right: 5px;
+    margin-top: 15px;
+    padding: 0;
+    text-align: left;
+}
+h2 {
+    text-decoration: solid;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact {
+    background-color:#C4AE78;
+}
+.maps {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 15px;
+}
+.titluri {
+    background-color: #C4AE78;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-h4 {
+    background-color: #171515;
+    color:#F9F6F0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sectiuni {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color:#000;
+}

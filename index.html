@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ioana Pupeză">
+  <meta name="keywords" content="restaurant, mâncare, stil italienesc, cocktail bar, vin, cafea expresso">
+  <meta name="description" content="Restaurantul La Dolce Vita vă pune la dispoziție cele mai fine mâncăruri în stil italienesc gătite de chefi renumiți.">
+  <title>Organic Kitchen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="styling.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Meniu-->
+ <header class="navbar navbar-expand-md stiky-top main-navbar">
+   <nav class="container-fluid margini-navbar">
+    <h1 class="navbar-brand">
+      <a class="nav-link" href="bootstrap.html">
+        <img class="logo" src="organic kitchen.png" alt="logo organic kitchen">
+      </a>
+    </h1>
+        <!--buton navigare-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expaned="false"  aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--sectiuni meniu-->
+       <div class="collapse navbar-collapse" id="mainMenu">
+           <ul class="navbar-nav ms-1 main-menu flex-column flex-md-row">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#servicii">Servicii</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#desprenoi">Despre noi</a></li>
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#contact">Contact</a></li>
+           </ul> 
+       </div>
+   </nav>
+ </header>
+    <!--carusel imagini-->
+    <div id="carusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <div class="ratio ratio-21x9">
+            <img src="restauran1.jpg" class="d-block w-100" alt="restaurant decorat în stil minimalist">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Organic Kitchen</h5>
+            <p>Restaurantul unde găsești cele mai bune preparate 100% cu ingrediente organice.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="ratio ratio-21x9">
+            <img src="pahare.jpg" class="d-block w-100" alt="pahare de vin așezate pe mese">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dining Room</h5>
+            <p>Ne asigurăm că clienții noștri au parte de o experiență de neuitat</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="ratio ratio-21x9">
+            <img src="tigai.jpg" class="d-block w-100" alt="tigăi așezate în bucătăria unui restaurant">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bucătăria este locul unde magia se întâmplă</h5>
+            <p>Cele mai bune preparate iau viață în bucătăria noastră</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="ratio ratio-21x9">
+            <img src="tacam.jpg" class="d-block w-100" alt="tacâmuri așezate pe o masă într-un restaurant">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eleganța ne definește</h5>
+            <p>Suntem atenți la fiecare detaliu</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <div class="ratio ratio-21x9">
+            <img src="terasa.jpg" class="d-block w-100" alt="o masă de patru persoane pe care sunt așezate tacâmuri">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Atmosferă plăcută</h5>
+            <p>Organic Kitchen este locul potrivit de ieșit cu prietenii</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--comfort-->
+    <div class="container">
+      <div>
+        <h2 id="servicii" class="titluri">Serviciile noastre</h2>
+      </div>
+      <div class="row comfort">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img class="imagini" src="disabled.png" alt="semn pentru persoanele cu dizabilități">
+          <p>Ajustat persoanelor cu dizabilități</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img class="imagini" src="frost.png" alt="un fulg de zăpadă semn pentru aer condiționat">
+          <p>Sisteme de climatizare</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img class="imagini" src="pets.png" alt="un câine și o pisică sub un acoperiș ">
+          <p>Mediu prietenos cu animalele</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img class="imagini" src="parked-car.png" alt="o mașină lângă un semn de parcare">
+          <p>Parking pentru clienții noștri</p>
+        </div>
+      </div>
+    </div>
+    <!--sectiune 1-->
+    <div class="container">
+        <div class="row fundal-sectiune-doi">
+            <div class="col-md-6">
+              <h2>Mâncare pentru toată lumea</h2>
+            </div>
+            <div class="col-md-6">
+              <p>Organic Kitchen își cultivă propriile ingrediente 100% organice!</p>
+              <p>Noi vă oferim preparate sănătoase potrivite și pentru clienții care sunt vegani sau vegetarieni.</p>
+            </div>
+        </div>
+    </div>
+       <div class="container imagine-container-100">
+         <img src="carusel-5.jpg" alt="trei farfurii cu burgeri, cartofi prăjiți și tacâmuri pe o masă">
+       </div>
+       <!--sectiune 2-->
+       <div class="container">
+           <div class="row">
+              <h2 class="titluri">Preparate noi în fiecare lună</h2>
+               <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
+                   <div class="card">
+                     <img class="card-img-top" src="burger.jpg" alt="un burger cu carne de vită, chiflă cu susan, brânză Cheddar, ceapă și roșii">
+                     <div class="card-block">
+                       <h3 class="card-title aliniere-centru">Burgerul organic</h3>
+                       <span class="badge rounded-pill text-bg-primary ms-2">New!</span>
+                       <p class="card-text mx-2">Ingrediente: chiflă , carne vită, roșii, salată, bacon, castraveți murați, brânză Cheddar, ceapă, sos barbeque.</p>
+                     </div>
+                   </div>
+               </div>
+
+               <div class="col-lg-3 col-md-3 col-sm-12 mb-5 ">
+                <div class="card">
+                  <img class="card-img-top" src="ramen.jpg" alt="o persoană care mănână ramen cu bețișoare">
+                  <div class="card-block">
+                    <h3 class="card-title aliniere-centru">Ramen de pui</h3>
+                    <span class="badge rounded-pill text-bg-primary ms-2">New!</span>
+                    <p class="card-text mx-2">Ingrediente: piept de pui, ouă, tăiței chinezești, ceapă verde, praz, ghimbir, sos de soia, ardei gras, ciuperci.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
+              <div class="card">
+                <img class="card-img-top" src="poke.jpg" alt="Supă de pui asiatică, bețișoare, somon, semințe de susan, legume">
+                <div class="card-block">
+                  <h3 class="card-title aliniere-centru">Supă de pui asiatică</h3>
+                  <span class="badge rounded-pill text-bg-primary ms-2">New!</span>
+                  <p class="card-text mx-2">Ingrediente: piept de pui, 100 ml vin de orez, ghimbir, ceapă, coriandru, ciuperci, tăiței Vermicelli, sos de soia.</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
+            <div class="card">
+              <img class="card-img-top" src="plate-of-food.jpg" alt="Carne de porc în sos teriyaki pe o farfurie albă">
+              <div class="card-block">
+                <h3 class="card-title aliniere-centru">Porc în sos teriyaki</h3>
+                <span class="badge rounded-pill text-bg-primary ms-2">New!</span>
+                <p class="card-text mx-2">Ingrediente: cotlet de porc, sos teriyaki, ceapă, roșii, sos de soia, semințe de susan, suc de lămâie, cuișoare, usturoi.</p>
+              </div>
+            </div>
+         </div>
+           </div>
+       </div>
+
+       <!--despre noi-->
+       <div class="despre-noi">
+          <h2 id="desprenoi" class="titluri">Despre noi</h2>
+          <p>Organic Kitchen a luat naștere din dorința de a mânca într-un stil sănătos, dar care să ne satisfacă toate poftele culinare cu ajutorul ingredientelor organice.</p> 
+          <p>Restaurantul nostru încearcă să adune mâncăruri cât mai diversificate, din toate colțurile lumii pentru a satisface gusturile clienților noștri.</p>
+          <p>Vă invităm să ne călcați pragul pentru a trăi o experiență culinară deosebită, pe care doar echipa noastră v-o poate oferi.</p>
+       </div>
+
+       <div class="container">
+          <h3 class="sectiuni">Echipa noastră</h3>
+
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                 <div class="card carduri-despre-noi">
+                    <img src="men.jpg" alt="un bărbat tânăr care poartă ochelari">
+                    <div class="container">
+                       <h4>Mateo Tori</h4>
+                       <p>Bucătar-chef</p>
+                       <p>mateotori@email.com</p>
+                       <a href="https://login.yahoo.com/?.src=ym&pspid=2143930004&activity=ybar-mail&.lang=ro-RO&.intl=ro&.done=https%3A%2F%2Fmail.yahoo.com%2Fd%3F.intl%3Dro%26.lang%3Dro-RO%26pspid%3D2143930004%26activity%3Dybar-mailz" target="_blank"><p><button class="button">Contact</button></p></a>
+                    </div>
+                 </div>
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card carduri-despre-noi">
+                   <img src="w (24).jpg" alt="O femeie blondă cu păr lung care zâmbește">
+                   <div class="container">
+                      <h4>Amalia Dona</h4>
+                      <p>CEO și fondator</p>
+                      <p>amaliadona@email.com</p>
+                      <a href="https://login.yahoo.com/?.src=ym&pspid=2143930004&activity=ybar-mail&.lang=ro-RO&.intl=ro&.done=https%3A%2F%2Fmail.yahoo.com%2Fd%3F.intl%3Dro%26.lang%3Dro-RO%26pspid%3D2143930004%26activity%3Dybar-mail" target="_blank"><p><button class="button">Contact</button></p></a>
+                   </div>
+                </div>
+             </div>
+
+             <div class="col-lg-4 col-md-4 col-sm-12">
+               <div class="card carduri-despre-noi">
+                 <img src="w (29).jpg" alt="o femeie șatenă care ține o cafea în mână">
+                 <div class="container">
+                    <h4>Ana Estefano</h4>
+                    <p>Manager</p>
+                    <p>anaestefano@email.com</p>
+                    <a href="https://login.yahoo.com/?.src=ym&pspid=2143930004&activity=ybar-mail&.lang=ro-RO&.intl=ro&.done=https%3A%2F%2Fmail.yahoo.com%2Fd%3F.intl%3Dro%26.lang%3Dro-RO%26pspid%3D2143930004%26activity%3Dybar-mail" target="_blank"><p><button class="button">Contact</button></p></a>
+                 </div>
+               </div>
+             </div>
+
+          
+          </div>
+       </div>
+       <!--contact-->
+       <div class="container">
+          <h2 id="contact" class="titluri">Contactează-ne!</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-8 col-sm-12">
+              <h3>Manager</h3>
+              <p>Telefon: +40 753 000 123</p>
+              <p>Email:amaliaprodono@email.com</p>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-12">
+              <h3>Rezervări</h3>
+              <p>Telefon: + 40 733 000 111</p>
+              <p>Email:organickitchen@email.com</p>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-12">
+              <h3>Adresa noastră</h3>
+              <p>Strada Primăverii 123B, Sectorul 3, București</p>
+            </div>
+
+          <h3 class="sectiuni">Programul nostru</h3>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <h4 class="contact-h4">Restaurant</h4>
+              <p>
+                <ul>
+                  <li>Luni-Vineri: 8:00-22:00</li>
+                  <li>Sâmbătă: 10:00-21:00</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <h4 class="contact-h4">Comenzi delivery</h4>
+              <p>
+                <ul>
+                  <li>Luni-Vineri: 10:00-20:00</li>
+                  <li>Sâmbătă: 12:00-18:00</li>
+                </ul>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <h4 class="contact-h4">Pick-up comenzi</h4>
+              <p>
+                <ul>
+                  <li>Luni-Vineri: 9:00-20:00</li>
+                  <li>Sâmbătă: 10:00-20:00</li>
+                </ul>
+              </p>
+            </div>
+         </div>
+       </div>
+       <!--footer-->
+       <footer class="culoare-footer">
+            <div class="container">
+              <div class="row">
+                 <div class="col-12 col-sm-6">
+                   <h4 class="footer-h4">Informații utile</h4>
+                   <p class="footer-h4">Programul nostru:
+                      <ul class="lista">
+                        <li>Luni-Vineri: 8:00-22:00</li>
+                        <li>Sâmbătă: 10:00-21:00 </li>
+                        <li>Duminică: închis.</li>
+                      </ul>
+                   </p>
+                 </div>
+
+                 <div class="col-12 col-sm-6">
+                    <h4 class="footer-h4">Rețele de socializare</h4>
+                    <a href="https://www.facebook.com/" target="_blank"><p class="footer-p"><i class="fa fa-facebook-square"></i> Facebook</a></p>
+                    <a href="https://www.instagram.com/" target="_blank"> <p class="footer-p"><i class="fa fa-instagram"></i> Instagram </a></p>
+                    <a href="https://twitter.com/" target="_blank"> <p class="footer-p"><i class="fa fa-twitter-square"></i> Twitter</a></p>
+                 </div>
+
+                 <div class="copyright">© 2022 Organic Kitchen SRL. All rights reserved.</div>
+              </div>
+            </div>
+       </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+              
